@@ -92,12 +92,9 @@ main{
     transform: translate(2px, 2px);
 }
 
-footer{ 
+.signature{ 
     font-family: quintessential;
     font-size: medium;
     color: white;
-    height: 25%;
-    width: 100%;
-    padding: 0px 50px 0px 0px; 
     text-align: right;
 }
