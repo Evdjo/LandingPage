@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-* {
+*{
     margin: 0px;
     padding: 12px;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-body:not(header) {
+body:not(header){
     background: linear-gradient(87.15deg, white 16.62%,#66656d 85.61%);
 }
  
-header {
+header{
     background: linear-gradient(98.15deg, #5E5B7E 16.62%, #FFDAB9 85.61%);
     height: 90px;
     width: 90px;  
@@ -21,7 +21,7 @@ header {
     border-radius: 100px;
 }
 
-.menu-item {
+.menu-item{
     font-family: caveat;
     font-weight: bold;
     font-size: 20px;
@@ -37,12 +37,12 @@ header {
     transition: text-shadow 0.5s ease, transform 0.5s ease;
 }
 .menu-item:hover{color: #861336;transition: 0.5s;}
-.menu-item:active {
+.menu-item:active{
     text-shadow: 0 0 0 0 #861336, inset 1px 1px 1px #861336;
     transform: translate(3px, 3px);
 }
 
-main {
+main{
     background-image: url('image.gif');
     background-repeat: repeat-y;
     background-attachment: fixed;
@@ -57,7 +57,7 @@ main {
     box-shadow: 0px 0.5px 0 0px #861336, inset 0px 0px 1px #FFDAB9; 
 }
 
-.texto {
+.text{
     font-family: quintessential;
     font-weight: 300;
     font-size: 20px;
@@ -69,7 +69,7 @@ main {
     justify-content: space-around;   
 }
 
-.botao {
+.button{
     border: 0;
     border-radius: 0.25rem;
     display: inline-block;
@@ -86,14 +86,13 @@ main {
     box-shadow: 0.5px 0.5px 0 0.5px #861336;
     transition: box-shadow 0.5s ease, transform 0.5s ease;
 }
-.botao:hover {background-color: #861336; color: white; transition: 0.5s;}
-
-.botao:active {
+.button:hover{background-color: #861336; color: white; transition: 0.5s;}
+.button:active{
     box-shadow: 0 0 0 0 #861336, inset 1px 1px 1px #861336;
     transform: translate(2px, 2px);
 }
 
-footer { 
+footer{ 
     font-family: quintessential;
     font-size: medium;
     color: white;
